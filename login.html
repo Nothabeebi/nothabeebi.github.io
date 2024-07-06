@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>ZOSERP - Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		
+		<meta name="title" content="Login"><meta name="language" content="en-US"><meta property="og:type" content="article"><meta property="og:title" content="Login"><meta name="twitter:title" content="Login"><meta name="twitter:card" content="summary">
+	
+
+
+        <!-- favicon -->
+		
+		<link
+			rel="shortcut icon"
+			href="/assets/erpnext/images/erpuse-favicon.svg"
+			type="image/x-icon"
+		>
+		<meta name="facebook-domain-verification" content="clwl0ughyj24e3do8tdzx8ocycuw3i" />
+
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/62ce8420b0d10b6f3e7c1726/1g7rb889f';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script--><link type="text/css" rel="stylesheet" href="/files/website_theme/dcode_ed183641.css">
+		<link type="text/css" rel="stylesheet" href="/assets/erpnext/dist/css/erpnext-web.bundle.5EZFOAP7.css">
+<link type="text/css" rel="stylesheet" href="/assets/frappe/dist/css/login.bundle.PGFMWMVF.css">
+
+		<script>
+		window.frappe = {};
+		frappe.ready_events = [];
+		frappe.ready = function(fn) {
+			frappe.ready_events.push(fn);
+		}
+		window.dev_server = 0;
+		window.socketio_port = 9000;
+		window.show_language_picker = false;
+	</script>
+
+        <!-- WOW Animation -->
+        <link href="/assets/dcode/css/animate.css" rel="stylesheet" type="text/css"  />
+        <!-- Bootstrap css -->
+        <link href="/assets/dcode/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- Slick Slider -->
+        <link href="/assets/dcode/css/slick.css" rel="stylesheet" type="text/css"  />
+        <!-- Icons -->
+        <link href="/assets/dcode/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/dcode/css/line-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/dcode/css/fontawesome.min.css" rel="stylesheet" type="text/css" />
+        <!-- Main css File -->
+        <link href="/assets/dcode/css/style.css" rel="stylesheet" type="text/css" id="theme-default" />
+        <link href="/assets/dcode/css/rtl-style.css" rel="stylesheet" type="text/css" id="rtl-theme-default" disabled="disabled" />
+        <link href="/assets/dcode/css/colors/default-color.css" rel="stylesheet" type="text/css" id="theme-color" />
+    </head>
+    <body frappe-session-status="logged-out" data-path="login" class="">
+        <!-- box-wrapper --> 
+        <div class="box-wrapper">
+            <!-- Loader -->
+            <div id="preloader">
+                <div id="status">
+                    <div class="d-loader">
+                        <img src="/assets/dcode/images/erpuse.gif" alt="DCode">
+                    </div>
+                </div>
+            </div>
+            <!-- Loader -->
+            <!-- Nav Bar -->
+                        <!-- Nav Bar -->
+            <header id="master-head" class="navbar menu-center">
+                <div class="container-fluid">
+                    <div id="main-logo" class="logo-container">
+                        <a class="logo" href="/home">
+                            <img src="/assets/dcode/images/erpuse-logo.png" class="logo-dark" alt="DCode">
+                            <img src="/assets/dcode/images/erpuse-logo.png" class="logo-light" alt="DCode">
+                        </a>
+                    </div>
+                    <div class="menu-toggle-btn">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle">
+                            <div class="burger-lines">
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                    <div id="navigation" class="nav navbar-nav navbar-main">
+							
+
+<ul id="main-menu" class="menu-primary">
+
+
+
+
+
+
+<li class="menu-item">
+	<a class="" href="/home" >
+		Home
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+<li class="menu-item">
+	<a class="" href="/about" >
+		About Us
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+<li class="menu-item">
+	<a class="" href="/pricing" >
+		Pricing
+	</a>
+</li>
+
+
+
+
+
+
+<li class="lansa menu-item menu-item-has-children ">
+	<a href="#" >Solutions</a>
+	<ul class="sub-menu murad"">
+		
+		
+
+
+
+
+
+
+
+<li class="menu-item"> <a href="/pos" >
+	Point of Sale and ERP System
+</a></li>
+
+
+
+
+
+		
+		
+
+
+
+
+
+
+
+<li class="menu-item"> <a href="/telecom" >
+	Dealer Management System for Telecom Distributors
+</a></li>
+
+
+
+
+
+		
+		
+
+
+
+
+
+
+
+<li class="menu-item"> <a href="/real-estate" >
+	Real Estate Management System
+</a></li>
+
+
+
+
+
+		
+		
+
+
+
+
+
+
+
+<li class="menu-item"> <a href="/pharmacy" >
+	Pharmacy Management System
+</a></li>
+
+
+
+
+
+		
+		
+
+
+
+
+
+
+
+<li class="menu-item"> <a href="/tasahel" >
+	"Tasahel" (Unified Bill Payment System)
+</a></li>
+
+
+
+
+
+		
+		
+
+
+
+
+
+
+
+<li class="menu-item"> <a href="/school" >
+	 "Al Khedam Al Waheda" (School Management System)
+</a></li>
+
+
+
+
+
+		
+		
+
+
+
+
+
+
+
+<li class="menu-item"> <a href="/glass" >
+	ERP for Glass Manufacturing Industries
+</a></li>
+
+
+
+
+
+		
+		
+
+
+
+
+
+
+
+<li class="menu-item"> <a href="/ins" >
+	"Mall Map" (Indoor Navigation System)
+</a></li>
+
+
+
+
+
+		
+	</ul>
+</li>
+
+
+
+
+
+
+<li class="lansa menu-item menu-item-has-children ">
+	<a href="#" >Demo</a>
+	<ul class="sub-menu murad"">
+		
+		
+
+
+
+
+
+
+
+<li class="menu-item"> <a href="https://pharmacy.erpuse.com" >
+	Pharmacy
+</a></li>
+
+
+
+
+
+		
+		
+
+
+
+
+
+
+
+<li class="menu-item"> <a href="https://retail.erpuse.com" >
+	Reatil and Distribution
+</a></li>
+
+
+
+
+
+		
+		
+
+
+
+
+
+
+
+<li class="menu-item"> <a href="https://autoparts.erpuse.com" >
+	Automobile Spare Parts
+</a></li>
+
+
+
+
+
+		
+		
+
+
+
+
+
+
+
+<li class="menu-item"> <a href="https://realestate.erpsue.com" >
+	Real Estate
+</a></li>
+
+
+
+
+
+		
+	</ul>
+</li>
+
+
+
+
+
+
+
+
+
+
+<li class="menu-item">
+	<a class="" href="/mobileapp" >
+		Mobile Apps
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+<li class="menu-item">
+	<a class="" href="/contact" >
+		Contact
+	</a>
+</li>
+
+
+
+
+</ul>
+<ul id="main-menu murad" class="menu-primary">
+	
+	
+	
+	
+
+	
+
+	
+
+	<!-- post login tools -->
+<!-- 
+
+	
+
+	
+ -->
+
+</ul>                     
+                    </div>
+                    <div class="navbar-right">
+                        <div class="menu-button">
+                            <a href="/login">
+                                <div class="btn btn-primary">Log In</div>
+                            </a>
+                        </div>
+                        <!-- <div class="search-option">
+                            <div class="search-btn">
+                                <a href="#"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </header>
+            <!-- Nav Bar -->
+
+
+                    
+
+
+
+
+
+
+
+
+<div id="page-login" data-path="login">
+	
+<div class="page-content-wrapper">
+	<!-- breadcrumbs -->
+	<div class="page-breadcrumbs">
+		
+			
+		
+	</div>
+
+	
+	<main class="container my-4">
+		<div class="page-header-wrapper">
+			<div class="page-header">
+				
+			</div>
+
+			
+		</div>
+
+		<div class="page_content">
+<!-- login.html -->
+<div>
+	<noscript>
+		<div class="text-center my-5">
+			<h4>Javascript is disabled on your browser</h4>
+			<p class="text-muted">
+				You need to enable JavaScript for your app to work.<br>To enable it follow the instructions in the following link: <a href='https://enable-javascript.com/'>enable-javascript.com</a></p>
+		</div>
+	</noscript>
+	<section class='for-login'>
+		<div class="login-content page-card">
+			
+<div class="page-card-head">
+	<img class="app-logo" src="/assets/erpnext/images/erpuse-logo.png">
+	<h4>Login to ZOSERP</h4>
+</div>
+
+			<form class="form-signin form-login" role="form">
+					
+<div class="page-card-body">
+	<div class="form-group">
+		<label class="form-label sr-only" for="login_email">Email or Username</label>
+		<div class="email-field">
+			<input type="text" id="login_email" class="form-control"
+				placeholder="jane@example.com"
+				required autofocus autocomplete="username">
+
+			<svg class="field-icon email-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M2.5 7.65149V15.0757C2.5 15.4374 2.64367 15.7842 2.8994 16.04C3.15513 16.2957 3.50198 16.4394 3.86364 16.4394H16.1364C16.498 16.4394 16.8449 16.2957 17.1006 16.04C17.3563 15.7842 17.5 15.4374 17.5 15.0757V7.65149"
+					stroke="#74808B" stroke-miterlimit="10" stroke-linecap="square" />
+				<path
+					d="M17.5 7.57572V5.53026C17.5 5.1686 17.3563 4.82176 17.1006 4.56603C16.8449 4.31029 16.498 4.16663 16.1364 4.16663H3.86364C3.50198 4.16663 3.15513 4.31029 2.8994 4.56603C2.64367 4.82176 2.5 5.1686 2.5 5.53026V7.57572L10 10.8333L17.5 7.57572Z"
+					stroke="#74808B" stroke-miterlimit="10" stroke-linecap="square" />
+			</svg>
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label class="form-label sr-only" for="login_password">Password</label>
+		<div class="password-field">
+			<input type="password" id="login_password" class="form-control" placeholder="•••••"
+				autocomplete="current-password" required>
+
+			<svg class="field-icon password-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M10.0961 1.93768H10.0264C8.94806 1.92763 7.90976 2.34591 7.13951 3.10075C6.36866 3.85619 5.9294 4.88687 5.91833 5.96612L5.91831 5.96612V5.97124V6.52695H4.3125C3.20793 6.52695 2.3125 7.42238 2.3125 8.52695V16.0165C2.3125 17.121 3.20793 18.0165 4.3125 18.0165H15.7356C16.8401 18.0165 17.7356 17.121 17.7356 16.0165V8.52695C17.7356 7.42238 16.8401 6.52695 15.7356 6.52695H14.1297V6.04576C14.1397 4.96742 13.7214 3.92913 12.9666 3.15888C12.2112 2.38803 11.1805 1.94877 10.1012 1.9377V1.93768H10.0961ZM13.1297 6.52695V6.04336V6.03838H13.1297C13.1378 5.22428 12.8222 4.44029 12.2524 3.85881C11.6831 3.27793 10.9067 2.94667 10.0934 2.93768H10.024H10.019V2.93765C9.20491 2.92955 8.42092 3.24512 7.83944 3.81497C7.25856 4.38423 6.9273 5.1607 6.91831 5.9739V6.52695H13.1297ZM4.3125 7.52695C3.76022 7.52695 3.3125 7.97467 3.3125 8.52695V16.0165C3.3125 16.5687 3.76022 17.0165 4.3125 17.0165H15.7356C16.2879 17.0165 16.7356 16.5687 16.7356 16.0165V8.52695C16.7356 7.97467 16.2879 7.52695 15.7356 7.52695H4.3125ZM10.0242 13.2384C10.5581 13.2384 10.9909 12.8056 10.9909 12.2717C10.9909 11.7377 10.5581 11.3049 10.0242 11.3049C9.49023 11.3049 9.05738 11.7377 9.05738 12.2717C9.05738 12.8056 9.49023 13.2384 10.0242 13.2384ZM11.9909 12.2717C11.9909 13.3579 11.1104 14.2384 10.0242 14.2384C8.93794 14.2384 8.05738 13.3579 8.05738 12.2717C8.05738 11.1854 8.93794 10.3049 10.0242 10.3049C11.1104 10.3049 11.9909 11.1854 11.9909 12.2717Z"
+					fill="#74808B" />
+			</svg>
+			<span toggle="#login_password" class="toggle-password text-muted">Show</span>
+		</div>
+	</div>
+
+	<p class="forgot-password-message">
+		<a href="#forgot">Forgot Password?</a>
+	</p>
+</div>
+
+<div class="page-card-actions">
+	
+	<button class="btn btn-sm btn-primary btn-block btn-login" type="submit">
+		Login</button>
+	
+	
+</div>
+</form>
+		</div></section><section class='for-signup signup-disabled'>
+		<div class="login-content page-card">
+			
+<div class="page-card-head">
+	<img class="app-logo" src="/assets/erpnext/images/erpuse-logo.svg">
+	<h4>Login to Erpuse</h4>
+</div>
+<div class='page-card-head mb-2'>
+				<span class='indicator gray'>Signup Disabled</span>
+				<p class="text-muted text-normal sign-up-message mt-1 mb-8">Signups have been disabled for this website.</p>
+				<div><a href='/' class='btn btn-primary btn-md'>Home</a></div>
+			</div></div>
+
+	</section>
+
+	<section class='for-forgot'>
+		<div class="login-content page-card">
+			<form class="form-signin form-forgot hide" role="form">
+				<div class="page-card-head">
+					<h4>Forgot Password</h4>
+				</div>
+				<div class="page-card-body">
+					<div class="email-field">
+						<input type="email" id="forgot_email" class="form-control"
+							placeholder="Email Address" required autofocus autocomplete="username">
+						<svg class="field-icon email-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+							xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M2.5 7.65149V15.0757C2.5 15.4374 2.64367 15.7842 2.8994 16.04C3.15513 16.2957 3.50198 16.4394 3.86364 16.4394H16.1364C16.498 16.4394 16.8449 16.2957 17.1006 16.04C17.3563 15.7842 17.5 15.4374 17.5 15.0757V7.65149"
+								stroke="#74808B" stroke-miterlimit="10" stroke-linecap="square" />
+							<path
+								d="M17.5 7.57572V5.53026C17.5 5.1686 17.3563 4.82176 17.1006 4.56603C16.8449 4.31029 16.498 4.16663 16.1364 4.16663H3.86364C3.50198 4.16663 3.15513 4.31029 2.8994 4.56603C2.64367 4.82176 2.5 5.1686 2.5 5.53026V7.57572L10 10.8333L17.5 7.57572Z"
+								stroke="#74808B" stroke-miterlimit="10" stroke-linecap="square" />
+						</svg>
+
+					</div>
+				</div>
+				<div class="page-card-actions">
+					<button class="btn btn-sm btn-primary btn-block btn-forgot"
+						type="submit">Reset Password</button>
+					<p class="text-center sign-up-message">
+						<a href="#login">Back to Login</a>
+					</p>
+				</div>
+
+			</form>
+		</div>
+	</section>
+
+	<section class='for-login-with-email-link'>
+		<div class="login-content page-card">
+			<form class="form-signin form-login-with-email-link hide" role="form">
+				<div class="page-card-head">
+					<h4>Login With Email Link</h4>
+				</div>
+				<div class="page-card-body">
+					<div class="email-field">
+						<input type="email" id="login_with_email_link_email" class="form-control"
+							placeholder="Email Address" required autofocus autocomplete="username">
+						<svg class="field-icon email-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+							xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M2.5 7.65149V15.0757C2.5 15.4374 2.64367 15.7842 2.8994 16.04C3.15513 16.2957 3.50198 16.4394 3.86364 16.4394H16.1364C16.498 16.4394 16.8449 16.2957 17.1006 16.04C17.3563 15.7842 17.5 15.4374 17.5 15.0757V7.65149"
+								stroke="#74808B" stroke-miterlimit="10" stroke-linecap="square" />
+							<path
+								d="M17.5 7.57572V5.53026C17.5 5.1686 17.3563 4.82176 17.1006 4.56603C16.8449 4.31029 16.498 4.16663 16.1364 4.16663H3.86364C3.50198 4.16663 3.15513 4.31029 2.8994 4.56603C2.64367 4.82176 2.5 5.1686 2.5 5.53026V7.57572L10 10.8333L17.5 7.57572Z"
+								stroke="#74808B" stroke-miterlimit="10" stroke-linecap="square" />
+						</svg>
+					</div>
+				</div>
+				<div class="page-card-actions">
+					<button class="btn btn-sm btn-primary btn-block btn-login-with-email-link"
+						type="submit">Send login link</button>
+					<p class="text-center sign-up-message">
+						<a href="#login">Back to Login</a>
+					</p>
+				</div>
+			</form>
+		</div>
+	</section>
+</div>
+</div>
+
+		<div class="page-footer"></div>
+	</main>
+	
+</div>
+
+</div>
+
+
+
+              
+
+
+
+        </div><footer class="site-footer footer-theme-two">
+<div class="container">
+<div class="main-footer style-dark">
+<div class="row">
+<div class="col-lg-4">
+<div class="widget">
+<div class="text-widget">
+<div class="about-info">
+<div class="image-wrapper">
+<img alt="" src="/assets/dcode/images/erpuse-logo-white.png"/>
+</div>
+<p>ZOSERP is a suite of business apps that cover all your company needs: CRM, eCommerce, accounting, inventory, point of sale, project management, etc.</p>
+<p>
+								ZOSERP's unique value proposition is to be at the same time very easy to use and fully integrated.</p>
+</div>
+<div class="playstore-widget">
+<h3>Download the App</h3>
+<ul>
+<li class="google"><a href="https://play.google.com/store/apps/">Google Play</a></li>
+<li class="apple"><a href="#">App Store</a></li>
+</ul>
+</div>
+</div>
+</div><!-- End Widget -->
+</div><!-- End Col -->
+<div class="col-lg-2">
+<div class="widget">
+<div class="widget-title">
+<h3 class="title">Useful Links</h3>
+</div>
+<div class="text-widget">
+<div class="footer-nav">
+<ul>
+<li><a href="/trust_safety">Trust &amp; Safety</a></li>
+<li><a href="/cookie_policy">Cookie Policy</a></li>
+<li><a href="/contact_us">Contact Us</a></li>
+<li><a href="/privacy_policy">Privacy Policy</a></li>
+<li><a href="/terms_of_service">Terms of Service</a></li>
+</ul>
+</div>
+</div>
+</div><!-- End Widget -->
+</div><!-- End Col -->
+<div class="col-lg-2">
+<div class="widget">
+<div class="widget-title">
+<h3 class="title">Support</h3>
+</div>
+<div class="text-widget">
+<div class="footer-nav">
+<ul>
+<li><a href="/documentation">Documentation</a></li>
+<li><a href="/faq">FAQ</a></li>
+<li><a href="/tutorial">Tutorial</a></li>
+<li><a href="/community">Community</a></li>
+</ul>
+</div>
+</div>
+</div><!-- End Widget -->
+</div><!-- End Col -->
+<div class="col-lg-4">
+<div class="widget">
+<div class="widget-title">
+<h3 class="title">Stay Updated</h3>
+</div>
+<div class="text-widget">
+<div class="contact-info">
+<ul>
+<li class="email-field">info@zoserp.com</li>
+<li class="phone-field">+91 83418 34314</li>
+<li class="address-field">Begum Bazar, Hyderabad, India</li>
+</ul>
+</div>
+<div class="social-media-links">
+<ul>
+<li><a href="https://www.facebook.com/erpuse/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href="https://www.linkedin.com/company/erpuse/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+<li><a href="https://twitter.com/erpuse" target="_blank"><i class="fab fa-twitter"></i></a></li>
+<li><a href="https://www.instagram.com/erpuse_com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+<li><a href="https://youtube.com/erpuse" target="_blank"><i class="fab fa-youtube"></i></a></li>
+</ul>
+</div>
+</div>
+</div><!-- End Widget -->
+</div><!-- End Col -->
+</div><!-- End Row -->
+</div>
+<div class="copyright-bar style-dark">
+<div class="copyright-text text-center">
+		
+		© ZOSERP
+		
+		
+
+		Powered By ZOSERP
+
+		
+	</div>
+</div>
+</div>
+</footer><!-- box-wrapper -->
+        <div class="overlay overlay-search">
+            <div class="close-search">
+                <span class="lines"></span>
+            </div>
+            <div class="container">
+                <form method="post">
+                    <div class="form-group">
+                        <input type="search" class="form-control" name="SearchInput" placeholder="Search…">
+                        <button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--search-form-->
+
+        <!-- javascript -->
+        <script src="/assets/dcode/js/jquery.min.js"></script>
+        <script src="/assets/dcode/js/jquery-migrate.min.js"></script>
+        <script src="/assets/dcode/js/bootstrap.bundle.min.js"></script>
+        <script src="/assets/dcode/js/jquery.easing.min.js"></script>
+        <script src="/assets/dcode/js/scrollspy.min.js"></script>
+        <script src="/assets/dcode/js/appear.js"></script>
+        <!-- WOW Animation -->
+        <script src="/assets/dcode/js/wow.min.js"></script>
+        <!-- Slick Slider -->
+        <script src="/assets/dcode/js/slick.min.js"></script>
+        <!-- Main Js -->
+        <script src="/assets/dcode/js/dcode.js"></script>
+
+
+        
+        <!-- js should be loaded in body! -->
+        <script>
+            frappe.boot = {'lang': 'en', 'sysdefaults': {'float_precision': 3, 'date_format': 'dd-mm-yyyy', 'time_format': 'HH:mm:ss'}, 'time_zone': {'system': 'Asia/Muscat', 'user': 'Asia/Kolkata'}, 'assets_json': {'barcode_scanner.bundle.js': '/assets/frappe/dist/js/barcode_scanner.bundle.YJLDN4TP.js', 'bootstrap-4-web.bundle.js': '/assets/frappe/dist/js/bootstrap-4-web.bundle.22U72DEL.js', 'checkout.bundle.js': '/assets/frappe/dist/js/checkout.bundle.I4AOUTZJ.js', 'controls.bundle.js': '/assets/frappe/dist/js/controls.bundle.QRT5JSRS.js', 'data_import_tools.bundle.js': '/assets/frappe/dist/js/data_import_tools.bundle.AHTLJMPE.js', 'desk.bundle.js': '/assets/frappe/dist/js/desk.bundle.4BE4WBNQ.js', 'dialog.bundle.js': '/assets/frappe/dist/js/dialog.bundle.7X44I4QW.js', 'form.bundle.js': '/assets/frappe/dist/js/form.bundle.G4VHN2WR.js', 'frappe-web.bundle.js': '/assets/frappe/dist/js/frappe-web.bundle.6GGSVQ3L.js', 'libs.bundle.js': '/assets/frappe/dist/js/libs.bundle.LZZGUWMT.js', 'list.bundle.js': '/assets/frappe/dist/js/list.bundle.ETDJCDEF.js', 'recorder.bundle.js': '/assets/frappe/dist/js/recorder.bundle.D2XFSRKI.js', 'report.bundle.js': '/assets/frappe/dist/js/report.bundle.4SE6QYMG.js', 'user_profile_controller.bundle.js': '/assets/frappe/dist/js/user_profile_controller.bundle.YR6XHZRM.js', 'web_form.bundle.js': '/assets/frappe/dist/js/web_form.bundle.IMCJANOE.js', 'print_format_builder.bundle.js': '/assets/frappe/dist/js/print_format_builder.bundle.YFLBINKD.js', 'build_events.bundle.js': '/assets/frappe/dist/js/build_events.bundle.PBGE444H.js', 'desk.bundle.css': '/assets/frappe/dist/css/desk.bundle.3J3EO6JP.css', 'email.bundle.css': '/assets/frappe/dist/css/email.bundle.GATQ3JBV.css', 'login.bundle.css': '/assets/frappe/dist/css/login.bundle.PGFMWMVF.css', 'print.bundle.css': '/assets/frappe/dist/css/print.bundle.J7QIXNK7.css', 'print_format.bundle.css': '/assets/frappe/dist/css/print_format.bundle.7NYNDPLD.css', 'report.bundle.css': '/assets/frappe/dist/css/report.bundle.WUQH3OOR.css', 'web_form.bundle.css': '/assets/frappe/dist/css/web_form.bundle.T46QYK46.css', 'website.bundle.css': '/assets/frappe/dist/css/website.bundle.AZ7OKEVN.css', 'rtl_desk.bundle.css': '/assets/frappe/dist/css-rtl/desk.bundle.KFK73NCT.css', 'rtl_email.bundle.css': '/assets/frappe/dist/css-rtl/email.bundle.UHJZLOJA.css', 'rtl_login.bundle.css': '/assets/frappe/dist/css-rtl/login.bundle.TZDJVUYL.css', 'rtl_print.bundle.css': '/assets/frappe/dist/css-rtl/print.bundle.SVYPLMNG.css', 'rtl_print_format.bundle.css': '/assets/frappe/dist/css-rtl/print_format.bundle.LCW75YZA.css', 'rtl_report.bundle.css': '/assets/frappe/dist/css-rtl/report.bundle.NMWRMTD2.css', 'rtl_web_form.bundle.css': '/assets/frappe/dist/css-rtl/web_form.bundle.BVV6CGCS.css', 'rtl_website.bundle.css': '/assets/frappe/dist/css-rtl/website.bundle.J74XTOLU.css', 'bank-reconciliation-tool.bundle.js': '/assets/erpnext/dist/js/bank-reconciliation-tool.bundle.EXHHLDXS.js', 'erpnext-web.bundle.js': '/assets/erpnext/dist/js/erpnext-web.bundle.TXJEPYOM.js', 'erpnext.bundle.js': '/assets/erpnext/dist/js/erpnext.bundle.DRBLB7W5.js', 'hierarchy-chart.bundle.js': '/assets/erpnext/dist/js/hierarchy-chart.bundle.RDVSY4Z3.js', 'item-dashboard.bundle.js': '/assets/erpnext/dist/js/item-dashboard.bundle.BXPN3LU7.js', 'point-of-sale.bundle.js': '/assets/erpnext/dist/js/point-of-sale.bundle.5TSSDEOR.js', 'erpnext-web.bundle.css': '/assets/erpnext/dist/css/erpnext-web.bundle.5EZFOAP7.css', 'erpnext.bundle.css': '/assets/erpnext/dist/css/erpnext.bundle.XSDQ6ZAX.css', 'erpnext_email.bundle.css': '/assets/erpnext/dist/css/erpnext_email.bundle.U65QFZWK.css', 'rtl_erpnext-web.bundle.css': '/assets/erpnext/dist/css-rtl/erpnext-web.bundle.IBUF6SNE.css', 'rtl_erpnext.bundle.css': '/assets/erpnext/dist/css-rtl/erpnext.bundle.F26NWZF7.css', 'rtl_erpnext_email.bundle.css': '/assets/erpnext/dist/css-rtl/erpnext_email.bundle.3HZL2B76.css', 'logtypes.bundle.js': '/assets/frappe/dist/js/logtypes.bundle.7STJ7YLS.js', 'video_player.bundle.js': '/assets/frappe/dist/js/video_player.bundle.UO3KNN5D.js', 'kanban_board.bundle.js': '/assets/frappe/dist/js/kanban_board.bundle.TOJBZTGE.js', 'print_format_builder.bundle.css': '/assets/frappe/dist/css/print_format_builder.bundle.YLJOLLNU.css', 'build_events.bundle.css': '/assets/frappe/dist/css/build_events.bundle.IRXFT3GY.css', 'file_uploader.bundle.js': '/assets/frappe/dist/js/file_uploader.bundle.KNG6ZKXV.js', 'file_uploader.bundle.css': '/assets/frappe/dist/css/file_uploader.bundle.RCOWPQDM.css', 'recorder.bundle.css': '/assets/frappe/dist/css/recorder.bundle.XRJR4FED.css', 'form_builder.bundle.js': '/assets/frappe/dist/js/form_builder.bundle.X2WCF4TX.js', 'point-of-sale-abt.bundle.js': '/assets/abt_group/dist/js/point-of-sale-abt.bundle.JYVUPB5I.js', 'pos-reconciliation-tool.bundle.js': '/assets/erpnext/dist/js/pos-reconciliation-tool.bundle.TFSKUBYJ.js'}}
+            // for backward compatibility of some libs
+            frappe.sys_defaults = frappe.boot.sysdefaults;
+        </script>
+        <script type="text/javascript" src="/assets/frappe/dist/js/frappe-web.bundle.6GGSVQ3L.js"></script>
+        
+        <script type="text/javascript" src="/website_script.js"></script>
+        <script type="text/javascript" src="/assets/erpnext/dist/js/erpnext-web.bundle.TXJEPYOM.js"></script>
+<script>// login.js
+// don't remove this line (used in test)
+
+window.disable_signup = true;
+
+window.login = {};
+
+window.verify = {};
+
+login.bind_events = function () {
+	$(window).on("hashchange", function () {
+		login.route();
+	});
+
+
+	$(".form-login").on("submit", function (event) {
+		event.preventDefault();
+		var args = {};
+		args.cmd = "login";
+		args.usr = frappe.utils.xss_sanitise(($("#login_email").val() || "").trim());
+		args.pwd = $("#login_password").val();
+		args.device = "desktop";
+		if (!args.usr || !args.pwd) {
+			frappe.msgprint('Both login and password required');
+			return false;
+		}
+		login.call(args);
+		return false;
+	});
+
+	$(".form-signup").on("submit", function (event) {
+		event.preventDefault();
+		var args = {};
+		args.cmd = "frappe.core.doctype.user.user.sign_up";
+		args.email = ($("#signup_email").val() || "").trim();
+		args.redirect_to = frappe.utils.sanitise_redirect(frappe.utils.get_url_arg("redirect-to"));
+		args.full_name = frappe.utils.xss_sanitise(($("#signup_fullname").val() || "").trim());
+		if (!args.email || !validate_email(args.email) || !args.full_name) {
+			login.set_status('Valid email and name required', 'red');
+			return false;
+		}
+		login.call(args);
+		return false;
+	});
+
+	$(".form-forgot").on("submit", function (event) {
+		event.preventDefault();
+		var args = {};
+		args.cmd = "frappe.core.doctype.user.user.reset_password";
+		args.user = ($("#forgot_email").val() || "").trim();
+		if (!args.user) {
+			login.set_status('Valid Login id required.', 'red');
+			return false;
+		}
+		login.call(args);
+		return false;
+	});
+
+	$(".toggle-password").click(function () {
+		var input = $($(this).attr("toggle"));
+		if (input.attr("type") == "password") {
+			input.attr("type", "text");
+			$(this).text('Hide')
+		} else {
+			input.attr("type", "password");
+			$(this).text('Show')
+		}
+	});
+
+	
+}
+
+
+login.route = function () {
+	var route = window.location.hash.slice(1);
+	if (!route) route = "login";
+	login[route]();
+}
+
+login.reset_sections = function (hide) {
+	if (hide || hide === undefined) {
+		$("section.for-login").toggle(false);
+		$("section.for-email-login").toggle(false);
+		$("section.for-forgot").toggle(false);
+		$("section.for-signup").toggle(false);
+	}
+	$('section:not(.signup-disabled) .indicator').each(function () {
+		$(this).removeClass().addClass('indicator').addClass('blue')
+			.text($(this).attr('data-text'));
+	});
+}
+
+login.login = function () {
+	login.reset_sections();
+	$(".for-login").toggle(true);
+}
+
+login.email = function () {
+	login.reset_sections();
+	$(".for-email-login").toggle(true);
+	$("#login_email").focus();
+}
+
+login.steptwo = function () {
+	login.reset_sections();
+	$(".for-login").toggle(true);
+	$("#login_email").focus();
+}
+
+login.forgot = function () {
+	login.reset_sections();
+	$(".for-forgot").toggle(true);
+	$("#forgot_email").focus();
+}
+
+login.signup = function () {
+	login.reset_sections();
+	$(".for-signup").toggle(true);
+	$("#signup_fullname").focus();
+}
+
+
+// Login
+login.call = function (args, callback) {
+	login.set_status('Verifying...', 'blue');
+
+	return frappe.call({
+		type: "POST",
+		args: args,
+		callback: callback,
+		freeze: true,
+		statusCode: login.login_handlers
+	});
+}
+
+login.set_status = function (message, color) {
+	$('section:visible .btn-primary').text(message)
+	if (color == "red") {
+		$('section:visible .page-card-body').addClass("invalid");
+	}
+}
+
+login.set_invalid = function (message) {
+	$(".login-content.page-card").addClass('invalid-login');
+	setTimeout(() => {
+		$(".login-content.page-card").removeClass('invalid-login');
+	}, 500)
+	login.set_status(message, 'red');
+	$("#login_password").focus();
+}
+
+login.login_handlers = (function () {
+	var get_error_handler = function (default_message) {
+		return function (xhr, data) {
+			if (xhr.responseJSON) {
+				data = xhr.responseJSON;
+			}
+
+			var message = default_message;
+			if (data._server_messages) {
+				message = ($.map(JSON.parse(data._server_messages || '[]'), function (v) {
+					// temp fix for messages sent as dict
+					try {
+						return JSON.parse(v).message;
+					} catch (e) {
+						return v;
+					}
+				}) || []).join('<br>') || default_message;
+			}
+
+			if (message === default_message) {
+				login.set_invalid(message);
+			} else {
+				login.reset_sections(false);
+			}
+
+		};
+	}
+
+	var login_handlers = {
+		200: function (data) {
+			if (data.message == 'Logged In') {
+				login.set_status('Success', 'green');
+				document.body.innerHTML = `<div class="centered splash">
+	<img src="/assets/erpnext/images/erpuse-logo.svg"
+		style="max-width: 100px; max-height: 100px;">
+</div>`;
+				window.location.href = frappe.utils.sanitise_redirect(frappe.utils.get_url_arg("redirect-to")) || data.home_page;
+			} else if (data.message == 'Password Reset') {
+				window.location.href = frappe.utils.sanitise_redirect(data.redirect_to);
+			} else if (data.message == "No App") {
+				login.set_status("Success", 'green');
+				if (localStorage) {
+					var last_visited =
+						localStorage.getItem("last_visited")
+						|| frappe.utils.sanitise_redirect(frappe.utils.get_url_arg("redirect-to"));
+					localStorage.removeItem("last_visited");
+				}
+
+				if (data.redirect_to) {
+					window.location.href = frappe.utils.sanitise_redirect(data.redirect_to);
+				}
+
+				if (last_visited && last_visited != "/login") {
+					window.location.href = last_visited;
+				} else {
+					window.location.href = data.home_page;
+				}
+			} else if (window.location.hash === '#forgot') {
+				if (data.message === 'not found') {
+					login.set_status('Not a valid user', 'red');
+				} else if (data.message == 'not allowed') {
+					login.set_status('Not Allowed', 'red');
+				} else if (data.message == 'disabled') {
+					login.set_status('Not Allowed: Disabled User', 'red');
+				} else {
+					login.set_status('Instructions Emailed', 'green');
+				}
+
+
+			} else if (window.location.hash === '#signup') {
+				if (cint(data.message[0]) == 0) {
+					login.set_status(data.message[1], 'red');
+				} else {
+					login.set_status('Success', 'green');
+					frappe.msgprint(data.message[1])
+				}
+				//login.set_status(__(data.message), 'green');
+			}
+
+			//OTP verification
+			if (data.verification && data.message != 'Logged In') {
+				login.set_status('Success', 'green');
+
+				document.cookie = "tmp_id=" + data.tmp_id;
+
+				if (data.verification.method == 'OTP App') {
+					continue_otp_app(data.verification.setup, data.verification.qrcode);
+				} else if (data.verification.method == 'SMS') {
+					continue_sms(data.verification.setup, data.verification.prompt);
+				} else if (data.verification.method == 'Email') {
+					continue_email(data.verification.setup, data.verification.prompt);
+				}
+			}
+		},
+		401: get_error_handler('Invalid Login. Try again.'),
+		417: get_error_handler('Oops! Something went wrong')
+	};
+
+	return login_handlers;
+})();
+
+frappe.ready(function () {
+
+	login.bind_events();
+
+	if (!window.location.hash) {
+		window.location.hash = "#login";
+	} else {
+		$(window).trigger("hashchange");
+	}
+
+	$(".form-signup, .form-forgot").removeClass("hide");
+	$(document).trigger('login_rendered');
+});
+
+var verify_token = function (event) {
+	$(".form-verify").on("submit", function (eventx) {
+		eventx.preventDefault();
+		var args = {};
+		args.cmd = "login";
+		args.otp = $("#login_token").val();
+		args.tmp_id = frappe.get_cookie('tmp_id');
+		if (!args.otp) {
+			frappe.msgprint('Login token required');
+			return false;
+		}
+		login.call(args);
+		return false;
+	});
+}
+
+var request_otp = function (r) {
+	$('.login-content').empty();
+	$('.login-content:visible').append(
+		`<div id="twofactor_div">
+			<form class="form-verify">
+				<div class="page-card-head">
+					<span class="indicator blue" data-text="Verification">Verification</span>
+				</div>
+				<div id="otp_div"></div>
+				<input type="text" id="login_token" autocomplete="off" class="form-control" placeholder=Verification Code required="" autofocus="">
+				<button class="btn btn-sm btn-primary btn-block mt-3" id="verify_token">Verify</button>
+			</form>
+		</div>`
+	);
+	// add event handler for submit button
+	verify_token();
+}
+
+var continue_otp_app = function (setup, qrcode) {
+	request_otp();
+	var qrcode_div = $('<div class="text-muted" style="padding-bottom: 15px;"></div>');
+
+	if (setup) {
+		direction = $('<div>').attr('id', 'qr_info').html('Enter Code displayed in OTP App.');
+		qrcode_div.append(direction);
+		$('#otp_div').prepend(qrcode_div);
+	} else {
+		direction = $('<div>').attr('id', 'qr_info').html('OTP setup using OTP App was not completed. Please contact Administrator.');
+		qrcode_div.append(direction);
+		$('#otp_div').prepend(qrcode_div);
+	}
+}
+
+var continue_sms = function (setup, prompt) {
+	request_otp();
+	var sms_div = $('<div class="text-muted" style="padding-bottom: 15px;"></div>');
+
+	if (setup) {
+		sms_div.append(prompt)
+		$('#otp_div').prepend(sms_div);
+	} else {
+		direction = $('<div>').attr('id', 'qr_info').html(prompt || 'SMS was not sent. Please contact Administrator.');
+		sms_div.append(direction);
+		$('#otp_div').prepend(sms_div)
+	}
+}
+
+var continue_email = function (setup, prompt) {
+	request_otp();
+	var email_div = $('<div class="text-muted" style="padding-bottom: 15px;"></div>');
+
+	if (setup) {
+		email_div.append(prompt)
+		$('#otp_div').prepend(email_div);
+	} else {
+		var direction = $('<div>').attr('id', 'qr_info').html(prompt || 'Verification code email not sent. Please contact Administrator.');
+		email_div.append(direction);
+		$('#otp_div').prepend(email_div);
+	}
+}</script>
+</body>
+</html>
