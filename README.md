@@ -1,6 +1,6 @@
 ## Dcode
 
-Theme for Erpuse Compatible with Frappe Framework
+Theme for ZOSERP Compatible with Frappe Framework
 
 #### License
 
