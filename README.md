@@ -1,4 +1,4 @@
-## Dcode
+## ZOSERP
 
 Theme for ZOSERP Compatible with Frappe Framework
 
